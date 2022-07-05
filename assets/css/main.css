@@ -147,6 +147,12 @@ p:last-child {
   margin: 0;
 }
 
+.shop-banner .container h3{
+  color: #000;
+}
+.shop-banner .container .sale-upto {
+  color: #000;
+}
 /* -----------------------------------------------------------------------------
 
 # All Common Styles
@@ -464,7 +470,8 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
 }
 
 .breadcrumb-bg {
-  background-image: url(../img/breadcrumb-bg.jpg);
+  background-image: url(../img/w50.jpg);
+  height: 700px;
 }
 
 .breadcrumb-text p {
@@ -2344,6 +2351,29 @@ a.video-play-btn {
 }
 
 .abt-bg:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #051922;
+  opacity: 0.3;
+}
+.abt-bg2 {
+  background-image: url(../img/now\ in.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.abt-bg2:after {
   position: absolute;
   left: 0;
   top: 0;
