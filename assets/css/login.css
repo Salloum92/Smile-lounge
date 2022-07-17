@@ -1,0 +1,37 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgb(0, 0, 0);
+}
+.text-center a{
+    color: black;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.btn-lg{
+background-color: #ff00aa;
+}
+
+.h2booking{
+    color: #ff00aa ;
+}
+thead{
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+table{
+    text-align: center;
+    width: 900px;
+}

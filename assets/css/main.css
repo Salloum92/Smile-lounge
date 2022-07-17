@@ -511,11 +511,9 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   opacity: 0.8;
 }
 
-/* -----------------------------------------------------------------------------
+/* -------------------------------LOG IN--------------------------------------*/
 
-# Header Styles
-
------------------------------------------------------------------------------ */
+/*-----------------------------------------------------------------------------*/
 ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-link {
   color: #051922;
 }
@@ -1938,7 +1936,7 @@ h1.demo-title a {
 }
 
 .pricing-table .ptable-item {
-  width: 33.33%;
+  width: 25%;
   padding: 0 15px;
   margin-bottom: 30px;
 }
